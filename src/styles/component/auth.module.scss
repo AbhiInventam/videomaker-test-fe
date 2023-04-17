@@ -1,0 +1,127 @@
+.auth_spacing_div {
+  padding: 70px 0px;
+}
+.auth_header_div {
+  margin-bottom: 30px;
+  h5 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+}
+.auth_modal_main_div {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 8px;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 35px 35px;
+}
+.field_label_title {
+  color: var(--text-color);
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.input_field {
+  height: 45px;
+  border-radius: 0px;
+}
+.input_field:focus {
+  box-shadow: unset !important;
+  border-color: var(--light-red) !important;
+}
+.input_field::placeholder {
+  font-size: 14px;
+}
+.other_login_div {
+  overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  .small_text {
+    text-align: center;
+    font-size: 15px;
+    color: var(--text-color);
+    display: inline-block;
+    position: relative;
+    padding: 0 25px;
+    font-weight: 500;
+  }
+}
+.other_login_div .small_text:before {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #cfcfcf;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 1;
+}
+.other_login_div .small_text:after {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #cfcfcf;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 1;
+}
+.email_signin_btn {
+  display: flex;
+    align-items: center;
+    border: 1px solid #dddddd;
+    padding: 8px 30px;
+    border-radius: 40px;
+    width: fit-content;
+    margin: 20px auto 0 auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color);
+  img {
+    width: 21px;
+    height: auto;
+    margin-right: 10px;
+  }
+}
+.generate_text {
+  margin-bottom: 0px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: var(--light-red);
+    font-size: 13px;
+    color: var(--white);
+    padding: 3px 10px;
+    border-radius: 30px;
+    min-width: 70px;
+    text-align: center;
+  cursor: pointer;
+}
+.otp_main_div {
+  display: flex;
+  column-gap: 20px;
+  .input_field {
+    height: 50px;
+    text-align: center;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .auth_modal_main_div {
+      padding: 25px 15px;
+  }
+  .auth_spacing_div {
+    padding: 50px 0px;
+  }
+}
