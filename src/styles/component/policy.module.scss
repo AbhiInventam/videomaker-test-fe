@@ -1,0 +1,16 @@
+.policy_contains_div {
+  margin-bottom: 40px;
+  .heading_text {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .para_text {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,124 @@
+// ============== Tabs Css End ============== //
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .btn_common {
+    padding: 10px 15px !important;
+    font-size: 15px !important;
+    min-width: 125px;
+  }
+  .common_padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .padding_left_space {
+    padding-left: 0px;
+  }
+  .common_heading_div h4 {
+    font-size: 32px;
+  }
+  .common_heading_div {
+    margin-bottom: 20px;
+  }
+  .mob_mb_35 {
+    margin-bottom: 35px;
+  }
+  .divider_div {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+  }
+  .small_highlight_text {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .flex_direction_column {
+    flex-direction: column-reverse;
+  }
+  // ============== Header Css Start ============== //
+  .navbar_div {
+    padding: 13px 0px !important;
+    min-height: inherit;
+    border-bottom: 1px solid #efefef;
+  }
+  .header_logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  // ============== Header Css End ============== //
+
+  // ============== Tabs Css Start ============== //
+  .auth_tabs_main_div .nav-tabs .nav-item {
+    margin: 0px 5px;
+  }
+  .auth_tabs_main_div .nav-tabs .nav-item button {
+    font-size: 14px;
+  }
+  // ============== Tabs Css End ============== //
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .btn_common {
+    padding: 10px 15px !important;
+    font-size: 15px !important;
+    min-width: 125px;
+  }
+  .common_padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .padding_left_space {
+    padding-left: 0px;
+  }
+  .common_heading_div h4 {
+    font-size: 34px;
+  }
+  .common_heading_div {
+    margin-bottom: 20px;
+  }
+  .mob_mb_35 {
+    margin-bottom: 35px;
+  }
+  .divider_div {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+  }
+  .common_para {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .small_highlight_text {
+    font-size: 20px;
+  }
+  // ============== Header Css Start ============== //
+  .navbar_div {
+    padding: 13px 0px !important;
+    min-height: inherit;
+    border-bottom: 1px solid #efefef;
+  }
+  .header_logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  // ============== Header Css End ============== //
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .common_padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .small_highlight_text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .common_padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .drag_box_div {
+    text-align: center;
+    height: 300px;
+  }
+}

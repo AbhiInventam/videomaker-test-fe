@@ -1,0 +1,64 @@
+@import 'src/styles/variable.scss';
+.forgotPasswordLink {
+  color: $blue;
+  text-align: right;
+}
+.phoneNumberControl {
+  height: 50px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+.countryCodeSelectControl {
+  border: none !important;
+}
+.phonNumberInputControl {
+  border: none !important;
+  background: transparent !important;
+  height: 50px !important;
+  width: 100% !important;
+}
+
+.phonNumberInvalidControl {
+  height: 50px;
+  border: 1px solid #dc3545;
+  border-radius: 5px;
+}
+.forgorpasswordtitle {
+  text-align: center;
+  color: $black-50;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.forgotPasswordSubText {
+  text-align: center;
+}
+.error_text {
+  text-align: center;
+  margin-bottom: 3px;
+  color: $danger;
+  padding: 15px;
+  border: 1px solid $danger;
+  border-radius: 54px;
+}
+.success_text {
+  text-align: center;
+  margin-bottom: 3px;
+  color: $success;
+  padding: 15px;
+  border: 1px solid $success;
+  border-radius: 5px;
+}
+.inputControl {
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 16px;
+}
+
+.validationText {
+  font-size: 0.75rem;
+}
+
+.login_btn {
+  height: 50px;
+}

@@ -1,0 +1,27 @@
+.modalContent {
+  background-color: #f9f5ef !important;
+  border: 0;
+  border-radius: 32px;
+  align-self: center;
+  align-content: center;
+}
+
+.modelBody {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: center;
+  align-content: center;
+  gap: 15px;
+}
+.backdrop {
+  filter: blur(10px) !important;
+  -webkit-filter: blur(8px) !important;
+  overflow: auto;
+}
+.modelFooter {
+  border-top: 0 !important;
+}
+.modelHeader {
+  border-bottom: 0 !important;
+}
