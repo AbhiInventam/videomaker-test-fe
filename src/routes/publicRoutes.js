@@ -15,8 +15,8 @@ import {
   OTPRoute,
   FeaturesRoute,
   PricingRoute,
-  TermsServicesRoute
-  // DashboardRoute
+  TermsServicesRoute,
+  DashboardRoute
 } from 'src/utils/constants/routeConstant'
 
 export const publicRoutes = [
@@ -37,6 +37,7 @@ export const publicRoutes = [
   // CartRoute,
   // PaymentRoute,
   FeaturesRoute,
-  PricingRoute
+  PricingRoute,
+  DashboardRoute // Just for testing
   // API routes
 ]
