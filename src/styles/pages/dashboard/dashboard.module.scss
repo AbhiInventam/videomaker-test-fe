@@ -1,0 +1,18 @@
+.panel_view_main_div {
+  display: grid;
+  grid-template-columns: 300px auto;
+  background-color: #F2F2F2;
+}
+.left_side_section_div {
+  position: relative;
+  width: 300px;
+  min-width: 300px;
+  transition: 350ms !important;
+}
+.right_side_section_div {
+  width: 100%;
+  position: relative;
+}
+.right_contain_main_div {
+  padding: 35px 35px 35px 35px;
+}

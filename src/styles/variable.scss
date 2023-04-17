@@ -1,0 +1,107 @@
+/* NEW COLOR SET - Apr 22 */
+
+$blue: #0071e3;
+$secondary: #db3c00;
+$black: #000000;
+$black-50: #333333 !default;
+$grey: #757582;
+$gray-50: #686f7a !default;
+$gray-100: #f0f4f5 !default;
+$gray-200: #afafaf !default;
+$gray-300: #e0e0e0 !default;
+$white: #ffffff;
+$green: #28a745;
+$red: #dc3545;
+$yellow: #fec624;
+
+$primary: $blue !default;
+$secondary: $black !default;
+$info: $blue !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$success: $green !default;
+$primary-bg: $blue !default;
+$border-color: $gray-300 !default;
+$title-color: $black-50;
+$body-color: $gray-50;
+$title-font: 'Poppins', sans-serif;
+$body-font: 'Varela Round', sans-serif;
+
+$spacing: 24px;
+$spacing-xxxs: 4px;
+$spacing-xxs: 8px;
+$spacing-xs: 12px;
+$spacing-sm: 16px;
+$spacing-md: 24px;
+$spacing-lg: 32px;
+$spacing-xl: 48px;
+$spacing-xxl: 64px;
+$spacing-xxxl: 96px;
+
+$padding: 24px;
+$padding-xxxs: 4px;
+$padding-xxs: 8px;
+$padding-xs: 12px;
+$padding-sm: 16px;
+$padding-md: 24px;
+$padding-lg: 32px;
+$padding-xl: 48px;
+$padding-xxl: 64px;
+$padding-xxxl: 96px;
+$padding-xxxxl: 108px;
+
+$border-radius: 12px;
+$border-radius-xl: 32px;
+$border-radius-lg: 24px;
+$border-radius-md: 8px;
+$border-radius-sm: 6px;
+$border-radius-rem: 1rem;
+
+$font-size-xxxs: 12px;
+$font-size-xxs: 14px;
+$font-size-xs: 16px;
+$font-size-sm: 18px;
+$font-size-md: 20px;
+$font-size-lg: 24px;
+$font-size-xl: 32px;
+$font-size-xxl: 48px;
+
+$line-height-xxxs: 16px;
+$line-height-xxs: 20px;
+$line-height-xs: 22px;
+$line-height-sm: 24px;
+$line-height-md: 26px;
+$line-height-lg: 32px;
+$line-height-xl: 40px;
+$line-height-xxl: 56px;
+
+$font-weight-sm: 400;
+$font-weight-md: 500;
+$font-weight-semi-bold: 600;
+$font-weight-lg: 700;
+$font-weight-desktop-lg: 600;
+
+$bottom-nav-height: 56px;
+$desktop-nav-width: 100px;
+$desktop-header-height: 96px;
+$desktop-nav-menu-more-width: 450px;
+$page-max-width: 1680px;
+
+$rem-xxxs: 0.125rem;
+$rem-xxs: 0.25rem;
+$rem-xs: 0.375rem;
+$rem-sm: 0.5rem;
+$rem-md: 0.625rem;
+$rem-lg: 0.75rem;
+$rem-xl: 0.875rem;
+$rem-xxl: 1rem;
+
+$width-xxs: 18px;
+
+$transition-fast: 0.2s;
+$transition: 0.4s;
+$transition-slow: 0.6s;
+
+$breakpoint-smallTablet: 600px;
+$breakpoint-tablet: 980px;
+$breakpoint-desktop: 1280px;
